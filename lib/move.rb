@@ -16,3 +16,6 @@ def move(array, what_is_defined_in_bin_doesnt_matter_in_this_argument, me = "X")
   array[what_is_defined_in_bin_doesnt_matter_in_this_argument] = me
 end
 
+# move(array, what_is_defined_in_bin_doesnt_matter_in_this_argument, me = "X")
+  array[what_is_defined_in_bin_doesnt_matter_in_this_argument] = me
+# Originally used move(array, index, player_value = "X"), but had me confused due to the argument index being used as a variable in .bin
